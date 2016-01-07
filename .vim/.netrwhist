@@ -1,0 +1,4 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =2
+let g:netrw_dirhist_1='/usr/cpu2006/my_result/libquantum+omnetpp/prcp_downgrade'
+let g:netrw_dirhist_2='/home/jwpark/jwpark/aos-team3/linux-3.0'
