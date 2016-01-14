@@ -1,6 +1,4 @@
 #!/bin/bash
-set -e
-
 is_zoomed=$(tmux list-panes -F '#F' | grep Z | wc -l)
 
 if [ "$1" == 'L' ]; then
