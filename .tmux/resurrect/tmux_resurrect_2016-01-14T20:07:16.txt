@@ -1,0 +1,3 @@
+pane	jwpark	1	:bash	1	:*	1	:/home/jwpark/jwpark/Scan-tolerant-MySQL/mysql-5.7.9	1	bash	:
+window	jwpark	1	1	:*	c61d,283x65,0,0,0
+state	jwpark	
