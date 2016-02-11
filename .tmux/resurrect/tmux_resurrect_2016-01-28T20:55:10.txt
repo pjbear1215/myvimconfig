@@ -1,0 +1,11 @@
+pane	0	1	:bash	1	:*	1	:/home/jwpark	1	bash	:
+pane	2	1	:bash	1	:*	1	:/home/jwpark	1	bash	:
+pane	3	1	:bash	1	:*	1	:/home/jwpark	1	bash	:
+pane	jwpark	1	:vi	1	:*	1	:/home/jwpark/jwpark/Scan-tolerant-MySQL/mysql-5.7.9	1	vi	:vi
+pane	jwpark	2	:vi	0	:-	1	:/home/jwpark/jwpark/Scan-tolerant-MySQL/mysql-5.7.9	1	vi	:vi
+window	0	1	1	:*	c243,364x83,0,0,6
+window	2	1	1	:*	c241,364x83,0,0,4
+window	3	1	1	:*	c242,364x83,0,0,5
+window	jwpark	1	1	:*	c240,364x83,0,0,3
+window	jwpark	2	0	:-	c23f,364x83,0,0,2
+state	jwpark	3
