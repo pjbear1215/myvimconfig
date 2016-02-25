@@ -48,6 +48,8 @@ endif
 nnoremap <silent> <F7> :TlistUpdate<CR>
 nnoremap <silent> <F8> :TlistToggle<CR>
 nnoremap <silent> <F9> :TlistSync<CR>
+nmap <F5> :!cscope -b -q<CR>
+	\:cs reset<CR>
 set background=dark
 let g:CSApprox_attr_map = { 'bold' : 'bold', 'italic' : '', 'sp' : '' }
 colorscheme base16-default
