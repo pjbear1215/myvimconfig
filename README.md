@@ -10,3 +10,4 @@ For auto zoom & auto reflow in tmux
 cp tmux-keep-zoom /usr/bin/  
 cp tmux-resize-screen /usr/bin/  
 cp .tmux.conf ~/  
+cp git-completion.bash /etc/bash_completion.d/
