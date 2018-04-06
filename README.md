@@ -4,7 +4,8 @@ my vim configuration
 For base16 colorscheme  
 Add the following in ~/.bashrc  
 export TERM=xterm-16color  
-cp -r .vim ~/  
+cp .vimrc ~/
+cp -r .vim ~/  
 
 For auto zoom & auto reflow in tmux  
 cp tmux-keep-zoom /usr/bin/  
