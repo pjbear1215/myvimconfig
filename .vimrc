@@ -30,6 +30,7 @@ filetype on
 "set background=dark
 set showmode
 set ff=unix
+set cul
 set colorcolumn=81
 
 "ctags
