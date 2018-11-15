@@ -1,0 +1,3 @@
+[submodule "base16-colors"]
+	path = base16-colors
+	url = https://github.com/adnasa/base16-colors.git
