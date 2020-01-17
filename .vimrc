@@ -54,6 +54,7 @@ nmap <F5> :!cscope -b -q<CR>
 set background=dark
 let g:CSApprox_attr_map = { 'bold' : 'bold', 'italic' : '', 'sp' : '' }
 colorscheme base16-default
+set termguicolors
 "autocmd BufWinLeave *.* mkview
 "autocmd BufWinEnter *.* silent loadview
 "au BufRead,BufNewFile *.R set filetype=r
