@@ -55,8 +55,8 @@ set background=dark
 let g:CSApprox_attr_map = { 'bold' : 'bold', 'italic' : '', 'sp' : '' }
 set t_Co=256
 colorscheme base16-default
-highlight CursorLine ctermbg=blue guibg=blue
-highlight CursorColumn ctermbg=blue guibg=blue
+highlight CursorLine ctermbg=236 guibg=blue
+highlight CursorColumn ctermbg=236 guibg=blue
 "set termguicolors
 "autocmd BufWinLeave *.* mkview
 "autocmd BufWinEnter *.* silent loadview
