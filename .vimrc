@@ -1,7 +1,10 @@
 set nocompatible
 filetype off
 
-set rtp+=~/.vim/bundle/vundle/
+call plug#begin()
+Plug 'morhetz/gruvbox'
+call plug#end()
+"set rtp+=~/.vim/bundle/vundle/
 "call vundle#rc()
 
 " let Vundle manage Vundle
@@ -27,7 +30,6 @@ set showmatch
 syntax on
 set fencs=ucs-bom,utf-8,euc-kr.latin1
 filetype on
-"set background=dark
 set showmode
 set ff=unix
 set cul
@@ -54,9 +56,11 @@ nmap <F5> :!cscope -b -q<CR>
 set background=dark
 let g:CSApprox_attr_map = { 'bold' : 'bold', 'italic' : '', 'sp' : '' }
 set t_Co=256
-colorscheme base16-default
-highlight CursorLine ctermbg=236 guibg=blue
-highlight CursorColumn ctermbg=236 guibg=blue
+set termguicolors
+"colorscheme base16-default
+colorscheme gruvbox
+#highlight CursorLine ctermbg=236 guibg=blue
+#highlight CursorColumn ctermbg=236 guibg=blue
 "set termguicolors
 "autocmd BufWinLeave *.* mkview
 "autocmd BufWinEnter *.* silent loadview
