@@ -13,9 +13,11 @@ done
 mkdir -p "$HOME/.local/bin"
 install -m 0755 "$DOTFILES"/tmux-* "$HOME/.local/bin/"
 
-# 3) tmux plugins via tpm
-[ -d "$HOME/.tmux/plugins/tpm" ] || \
+# 3) tmux plugins via tpm (re-clone if the dir exists but is incomplete)
+if [ ! -x "$HOME/.tmux/plugins/tpm/bin/install_plugins" ]; then
+  rm -rf "$HOME/.tmux/plugins/tpm"
   git clone https://github.com/tmux-plugins/tpm "$HOME/.tmux/plugins/tpm"
+fi
 "$HOME/.tmux/plugins/tpm/bin/install_plugins"
 
 # 4) vim plugins via vim-plug
