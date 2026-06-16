@@ -1,0 +1,9 @@
+# Runtime state (regenerated; never commit)
+.tmux/resurrect/
+.vim/.netrwhist
+*.swp
+
+# Installed by plugin managers (not bundled in the repo)
+.tmux/plugins/
+.vim/bundle/
+.vim/plugged/
