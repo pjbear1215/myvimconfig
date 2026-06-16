@@ -58,7 +58,7 @@ let g:CSApprox_attr_map = { 'bold' : 'bold', 'italic' : '', 'sp' : '' }
 set t_Co=256
 set termguicolors
 "colorscheme base16-default
-colorscheme gruvbox
+silent! colorscheme gruvbox
 "highlight CursorLine ctermbg=236 guibg=blue
 "highlight CursorColumn ctermbg=236 guibg=blue
 "set termguicolors

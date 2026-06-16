@@ -20,8 +20,8 @@ if [ ! -x "$HOME/.tmux/plugins/tpm/bin/install_plugins" ]; then
 fi
 "$HOME/.tmux/plugins/tpm/bin/install_plugins"
 
-# 4) vim plugins via vim-plug
-command -v vim >/dev/null && vim +PlugInstall +qall || true
+# 4) vim plugins via vim-plug (--sync so the install finishes headless)
+command -v vim >/dev/null && vim +'PlugInstall --sync' +qall || true
 
 # 5) Dependency / PATH checks
 for c in tmux git fzf vim; do command -v "$c" >/dev/null || echo "missing: $c"; done
