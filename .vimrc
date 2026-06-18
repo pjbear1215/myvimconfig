@@ -48,6 +48,9 @@ if has('cscope')
 	endif
 	set csverb
 endif
+if &diff
+	set wrap
+endif
 nnoremap <silent> <F7> :TlistUpdate<CR>
 nnoremap <silent> <F8> :TlistToggle<CR>
 nnoremap <silent> <F9> :TlistSync<CR>
