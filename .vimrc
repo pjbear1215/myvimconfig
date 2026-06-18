@@ -48,9 +48,6 @@ if has('cscope')
 	endif
 	set csverb
 endif
-if &diff
-	set wrap
-endif
 nnoremap <silent> <F7> :TlistUpdate<CR>
 nnoremap <silent> <F8> :TlistToggle<CR>
 nnoremap <silent> <F9> :TlistSync<CR>
@@ -71,4 +68,7 @@ silent! colorscheme gruvbox
 "au BufRead,BufNewFile *.r set filetype=r
 "set sessionoptions-=folds
 "set sessionoptions-=options
-
+augroup GitDiffWrap
+    autocmd!
+    autocmd VimEnter * if &diff | execute 'windo setlocal wrap linebreak' | endif
+augroup END
